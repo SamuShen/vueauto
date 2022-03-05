@@ -36,6 +36,6 @@ jobs:
           ARGS: "-e -c -r --delete"
           SERVER_PORT: ${{ secrets.SERVER_PORT }}
           FOLDER: "./"
-          SERVE_IP: ${{ sec/rets.SERVER_IP }}
+          SERVE_IP: ${{ secrets.SERVER_IP }}
           USERNAME: ${{ secrets.USERNAME }}
           SERVER_DESTINATION: ${{ secrets.SERVER_DESTINATION }}
